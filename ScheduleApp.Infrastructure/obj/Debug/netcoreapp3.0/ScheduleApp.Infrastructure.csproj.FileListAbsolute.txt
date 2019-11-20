@@ -11,3 +11,6 @@ C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\obj
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.csproj.CopyComplete
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\bin\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.runtimeconfig.json
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\bin\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.runtimeconfig.dev.json
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\bin\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.pdb
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.dll
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.pdb
