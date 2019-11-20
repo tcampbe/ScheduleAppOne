@@ -6,8 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ScheduleApp.Core\ScheduleApp.Core.csproj" />
-    <ProjectReference Include="ScheduleApp.Core\ScheduleApp.Core.csproj" />
-    <ProjectReference Include="ScheduleApp.Infrastructure\ScheduleApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ScheduleApp.Infrastructure\ScheduleApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
