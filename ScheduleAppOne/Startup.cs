@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ScheduleApp.Core.Services;
+using ScheduleApp.Infrastructure.Data;
 
 namespace ScheduleAppOne
 {
@@ -25,7 +27,21 @@ namespace ScheduleAppOne
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            
+            services.AddDbContext<AppDbContext>();
+
+            //if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+            //    services.AddDbContext<AppDbContext>(options =>
+            //            options.UseSqlServer(Configuration.GetConnectionString("QuizDbConnection")));
+            //else
+            //    services.AddDbContext<AppDbContext>(options =>
+            //            options.UseSqlite("Data Source=quizapp.db"));
+
+            services.AddScoped<IScheduleRepository, ScheduleRepository>();
+            services.AddScoped<IScheduleService, ScheduleService>();
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IStudentService, StudentService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
