@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+        "projectName": "ScheduleApp.Core",
+        "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Troy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj",
+        "projectName": "ScheduleApp.Infrastructure",
+        "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Troy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj",
+        "projectName": "ScheduleApp",
+        "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj",
+        "packagesPath": "C:\\Users\\Troy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj"
+              },
+              "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

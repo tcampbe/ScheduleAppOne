@@ -1,0 +1,3 @@
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleApp.Infrastructure\obj\Debug\netcoreapp3.0\ScheduleApp.Infrastructure.AssemblyInfo.cs
