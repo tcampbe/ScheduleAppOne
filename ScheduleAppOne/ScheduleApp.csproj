@@ -5,12 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ScheduleApp.Core\ScheduleApp.Core.csproj" />
     <ProjectReference Include="ScheduleApp.Core\ScheduleApp.Core.csproj" />
     <ProjectReference Include="ScheduleApp.Infrastructure\ScheduleApp.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

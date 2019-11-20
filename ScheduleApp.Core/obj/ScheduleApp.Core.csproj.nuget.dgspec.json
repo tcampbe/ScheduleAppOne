@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {}
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+    "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
         "projectName": "ScheduleApp.Core",
-        "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+        "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
         "packagesPath": "C:\\Users\\Troy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 using ScheduleApp.Core.Models;
 using ScheduleApp.Core.Services;
 
@@ -26,6 +27,8 @@ namespace ScheduleApp.Infrastructure.Data
         public Student Get(int id)
         {
             return _dbContext.Students
+                .Include (ss => ss.StudentSchedule)
+                .ThenInclude (sc => sc.Schedule)
                 .SingleOrDefault(b => b.Id == id);
         }
 

@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/ScheduleApp.Core.dll": {}
         }
-      },
-      "ScheduleApp.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "dependencies": {
-          "ScheduleApp.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ScheduleApp.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ScheduleApp.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -32,17 +19,13 @@
       "type": "project",
       "path": "../ScheduleApp.Core/ScheduleApp.Core.csproj",
       "msbuildProject": "../ScheduleApp.Core/ScheduleApp.Core.csproj"
-    },
-    "ScheduleApp.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../ScheduleApp.Infrastructure/ScheduleApp.Infrastructure.csproj",
-      "msbuildProject": "../ScheduleApp.Infrastructure/ScheduleApp.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "ScheduleApp.Core >= 1.0.0",
-      "ScheduleApp.Infrastructure >= 1.0.0"
+      "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+      "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj",
+      "ScheduleApp.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.csproj",
       "projectName": "ScheduleApp",
-      "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\ScheduleApp.csproj",
+      "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.csproj",
       "packagesPath": "C:\\Users\\Troy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleAppOne\\obj\\",
+      "outputPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -78,11 +61,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Core\\ScheduleApp.Core.csproj"
+            "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj"
             },
-            "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\gradProject\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj"
+            "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj"
+            },
+            "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj"
             }
           }
         }
@@ -116,5 +102,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleAppOne\\ScheduleApp.Infrastructure\\ScheduleApp.Infrastructure.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }

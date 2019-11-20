@@ -4,6 +4,7 @@ using System.Text;
 using ScheduleApp.Core.Services;
 using ScheduleApp.Core.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace ScheduleApp.Infrastructure.Data
 {
@@ -26,6 +27,8 @@ namespace ScheduleApp.Infrastructure.Data
         public Schedule Get(int id)
         {
             return _dbContext.Schedules
+                .Include(ss => ss.StudentSchedule)
+                .ThenInclude(st => st.Student)
                 .SingleOrDefault(b => b.Id == id);
         }
 
