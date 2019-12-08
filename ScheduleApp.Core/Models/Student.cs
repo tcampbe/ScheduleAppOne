@@ -7,7 +7,6 @@ namespace ScheduleApp.Core.Models
 {
     public class Student
     {
-        [Required]
         public int Id { get; set; }
         [Required]
         public string FirstName { get; set; }
