@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9YbGTnbQtjnZp+QqMIxBpoB/4ZbxLch76Ws0aqCT8aS0DJMwgs/57xN7D135WgBAFwjLtaauTVU5veDXeTXjWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Troy\\Desktop\\CSharpDotNet\\ScheduleAppOne\\ScheduleApp.Core\\ScheduleApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Troy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Troy\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Troy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

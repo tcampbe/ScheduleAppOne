@@ -14,3 +14,4 @@ C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Core\obj\Debug\net
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Core\obj\Debug\netcoreapp3.0\ScheduleApp.Core.AssemblyInfo.cs
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Core\obj\Debug\netcoreapp3.0\ScheduleApp.Core.dll
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Core\obj\Debug\netcoreapp3.0\ScheduleApp.Core.pdb
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleApp.Core\obj\Debug\netcoreapp3.0\ScheduleApp.Core.csproj.CoreCompileInputs.cache

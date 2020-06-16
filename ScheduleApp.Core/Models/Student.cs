@@ -14,6 +14,6 @@ namespace ScheduleApp.Core.Models
         public string LastName { get; set; }
         public int Age { get; set; }
         public string Grade { get; set; }
-        public ICollection<StudentSchedule> StudentSchedule { get; set; }
+        public ICollection<Schedule> Schedule { get; set; }
     }
 }

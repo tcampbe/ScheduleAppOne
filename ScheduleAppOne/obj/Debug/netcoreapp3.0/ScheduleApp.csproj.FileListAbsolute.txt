@@ -55,3 +55,4 @@ C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleAppOne\obj\Debug\netco
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleAppOne\obj\Debug\netcoreapp3.0\ScheduleApp.csproj.CopyComplete
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleAppOne\obj\Debug\netcoreapp3.0\ScheduleApp.dll
 C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleAppOne\obj\Debug\netcoreapp3.0\ScheduleApp.pdb
+C:\Users\Troy\Desktop\CSharpDotNet\ScheduleAppOne\ScheduleAppOne\obj\Debug\netcoreapp3.0\ScheduleApp.csproj.CoreCompileInputs.cache
