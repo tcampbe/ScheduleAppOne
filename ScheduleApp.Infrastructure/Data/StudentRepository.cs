@@ -27,8 +27,9 @@ namespace ScheduleApp.Infrastructure.Data
         public Student Get(int id)
         {
             return _dbContext.Students
-                .Include (ss => ss.StudentSchedule)
-                .ThenInclude (sc => sc.Schedule)
+                // .Include (ss => ss.StudentSchedule)
+                // .ThenInclude (sc => sc.Schedule)
+                .Include (sc => sc.Schedule)
                 .SingleOrDefault(b => b.Id == id);
         }
 
